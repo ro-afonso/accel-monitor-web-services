@@ -5,7 +5,6 @@ In this project, the values of all the acceleration axes of a robot simulated in
 
 ![Accel_monitor_system](https://github.com/ro-afonso/accel-monitor-web-services/assets/93609933/400068a1-ae94-45d0-9e24-a9faa1e62dee)
 
-
 The data is then displayed in a Dash Web Application, as shown below:
 
 ![Dash_Plotly_Accel_System](https://github.com/ro-afonso/accel-monitor-web-services/assets/93609933/40089c34-cb27-43fe-a822-9fc1bce19d00)
