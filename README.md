@@ -30,4 +30,4 @@ The data is then displayed in a Dash Web Application, as shown below:
    heroku ps:scale web=1 # run with 1 heroku “dyno”
 5) The app is now available at 'https://your-app-name.herokuapp.com'
 6) Run the 'is_tp1_base.py' script to run the copelia sim and send the acceleration data to Heroku
-7) Open the localhost in port 8050 on the web browser to display and monitor the data using Dash and Plotly
+7) Run the 'app.py' script and visit 'http://127.0.0.1:8050' in the web browser to display and monitor the data using Dash and Plotly
