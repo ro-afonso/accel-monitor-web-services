@@ -10,13 +10,13 @@ The data is then displayed in a Dash Web Application, as shown below:
 ![Dash_Plotly_Accel_System](https://github.com/ro-afonso/accel-monitor-web-services/assets/93609933/40089c34-cb27-43fe-a822-9fc1bce19d00)
 
 ## Requirements
-* Python 3.7 (Anaconda recommended: https://www.anaconda.com/products/individual)
+* Anaconda environment with Python 3.7: https://www.anaconda.com/products/individual
 * CoppeliaSim Edu version 4.0.0: https://coppeliarobotics.com/files/CoppeliaSim_Edu_V4_0_0_Setup.exe
 * VSCode or other code editors
-* Heroku App using the 30 days free tier
+* Heroku App using the 30 days free trial
 
 ## How to run
-1) Change the heroku app name to your app name in Hero.bat and run the command
+1) Change the Heroku app name to your app name in 'Hero.bat' and run the command
 2) Install required packages:
    conda install -c anaconda git
    pip install -r requirements.txt
@@ -25,7 +25,7 @@ The data is then displayed in a Dash Web Application, as shown below:
 4) Initialize Heroku, add files and deploy:
    heroku login
    heroku git:remote -a your-app-name # change the name for your app
-   git commit -am ‘initial commit’
+   git commit -am "initial commit"
    git push heroku master # deploy the code to heroku
    heroku ps:scale web=1 # run with 1 heroku “dyno”
 5) The app is now available at 'https://your-app-name.herokuapp.com'
