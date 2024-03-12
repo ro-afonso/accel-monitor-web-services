@@ -21,7 +21,7 @@ The data is then displayed in a Dash Web Application, as shown below:
 2) Install required packages with anaconda:
    * conda install -c anaconda git
    * pip install -r requirements.txt
-3) Open a new terminal inside the "scripts" folder with your code editor
+3) Open a new terminal inside the "scripts\iscf_lab1" folder with your code editor
 4) Initialize an empty git repo:
    * git init
 5) Initialize Heroku, add files and deploy:
