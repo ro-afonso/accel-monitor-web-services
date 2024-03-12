@@ -13,21 +13,23 @@ The data is then displayed in a Dash Web Application, as shown below:
 * Anaconda environment with Python 3.7: https://www.anaconda.com/products/individual
 * CoppeliaSim Edu version 4.0.0: https://coppeliarobotics.com/files/CoppeliaSim_Edu_V4_0_0_Setup.exe
 * VSCode or other code editors
-* Heroku App using the 30 days free trial
+* Heroku App with Heroku Postgres Add-on using the 30 days free trial: https://www.heroku.com
+* Heroku CLI: https://devcenter.heroku.com/articles/heroku-cli
 
 ## How to run
 1) Change the Heroku app name to your app name in 'Hero.bat' and run the command
-2) Install required packages:
-   conda install -c anaconda git
-   pip install -r requirements.txt
-3) Initialize an empty git repo:
-   git init
-4) Initialize Heroku, add files and deploy:
+2) Install required packages with anaconda:
+   * conda install -c anaconda git
+   * pip install -r requirements.txt
+3) Open a new terminal inside the "scripts" folder with your code editor
+4) Initialize an empty git repo:
+   * git init
+5) Initialize Heroku, add files and deploy:
    * heroku login
    * heroku git:remote -a your-app-name # change the name for your app
    * git commit -am "initial commit"
    * git push heroku master # deploy the code to heroku
    * heroku ps:scale web=1 # run with 1 heroku “dyno”
-5) The app is now available at 'https://your-app-name.herokuapp.com'
-6) Run the 'is_tp1_base.py' script to run the copelia sim and send the acceleration data to Heroku
-7) Run the 'app.py' script and visit 'http://127.0.0.1:8050' in the web browser to display and monitor the data using Dash and Plotly
+6) The app is now available at 'https://your-app-name.herokuapp.com'
+7) Run the 'is_tp1_base.py' script to run the copelia sim and send the acceleration data to Heroku
+8) Run the 'app.py' script and visit 'http://127.0.0.1:8050' in the web browser to display and monitor the data using Dash and Plotly
