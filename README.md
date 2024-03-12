@@ -12,7 +12,7 @@ The data is then displayed in a Dash Web Application, as shown below:
 ## Requirements
 * Anaconda environment with Python 3.7: https://www.anaconda.com/products/individual
 * CoppeliaSim Edu version 4.0.0: https://coppeliarobotics.com/files/CoppeliaSim_Edu_V4_0_0_Setup.exe
-* VSCode or other code editors
+* VS Code or other code editors
 * Heroku App with Heroku Postgres Add-on using the 30 days free trial: https://www.heroku.com
 * Heroku CLI: https://devcenter.heroku.com/articles/heroku-cli
 
