@@ -23,11 +23,11 @@ The data is then displayed in a Dash Web Application, as shown below:
 3) Initialize an empty git repo:
    git init
 4) Initialize Heroku, add files and deploy:
-   heroku login
-   heroku git:remote -a your-app-name # change the name for your app
-   git commit -am "initial commit"
-   git push heroku master # deploy the code to heroku
-   heroku ps:scale web=1 # run with 1 heroku “dyno”
+   i) heroku login
+   ii) heroku git:remote -a your-app-name # change the name for your app
+   iii) git commit -am "initial commit"
+   iv) git push heroku master # deploy the code to heroku
+   v) heroku ps:scale web=1 # run with 1 heroku “dyno”
 5) The app is now available at 'https://your-app-name.herokuapp.com'
 6) Run the 'is_tp1_base.py' script to run the copelia sim and send the acceleration data to Heroku
 7) Run the 'app.py' script and visit 'http://127.0.0.1:8050' in the web browser to display and monitor the data using Dash and Plotly
